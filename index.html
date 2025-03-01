@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .login-form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .login-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .login-form input[type="text"],
+        .login-form input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #abaaaa;
+        }
+
+        .login-form button {
+            background-color: #188d14;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .login-form a {
+            text-decoration: none;
+        }
+
+        .audio-video {
+            margin-top: 20px;
+        }
+
+        .audio-video h2 {
+            margin-bottom: 10px;
+        }
+
+        .audio-video audio,
+        .audio-video video {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .useful-links {
+            margin-top: 20px;
+        }
+
+        .useful-links h2 {
+            margin-bottom: 10px;
+        }
+
+        .useful-links ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .useful-links li {
+            margin-bottom: 5px;
+        }
+
+        .useful-links a {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to the Login Page</h1>
+    <p>Please enter your credentials to continue.</p>
+
+    <div class="login-form">
+        <h2>🔑 Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password">
+
+        <button>Login</button>
+        <p>Don't have an account? <a href="https://github.com/11FaZe11">Register here</a></p>
+    </div>
+
+    <div class="audio-video">
+        <h2><span style="font-size: 1.2em;">🎵</span> Audio & <span style="font-size: 1.2em;">🎥</span> Video</h2>
+        <audio controls loop id="audioPlayer">
+            <source src="assets/Audio/001.mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <script>
+            document.getElementById('audioPlayer').play();
+        </script>
+        <video controls width="320" height="240">
+            <source src="assets/Video/001.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="useful-links">
+        <h2><span style="font-size: 1.2em;">🔗</span> Useful Links</h2>
+        <ul>
+            <li><a target="_blank" href="https://github.com/11FaZe11">Link 1</a></li>
+            <li><a target="_blank" href="https://github.com/11FaZe11">Link 2</a></li>
+            <li><a target="_blank" href="https://github.com/11FaZe11">Link 3</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
+
+<!--finally Done!! -->
+<!--Hope you like it.!-->
